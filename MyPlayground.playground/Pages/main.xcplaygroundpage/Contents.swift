@@ -9,13 +9,14 @@
  * [Booleans and Operators](https://github.com/learn-co-curriculum/swift-booleans-readme)
  * [Conditionals](https://github.com/learn-co-curriculum/swift-conditionals-readme)
  
-
-
-/*: Question 1
-### 1. Add two Doubles
-*/
+ 
+ 
+ /*: Question 1
+ ### 1. Add two Doubles
+ */
 // write your code here
 
+ 
 
 /*: Question 2
 ### 2. Add an Int to a Double
@@ -95,3 +96,33 @@
 // write your code here
 
 */
+
+func add(a:Double,b:Double) -> Double {
+    return a+b
+}
+
+func add(a:Int,b:Double) -> Int{
+    return a+Int(b)
+}
+
+func isEqual(a:Int,b:Int) -> Bool {
+    return a == b
+}
+func isEqual(a:Double,b:Double) -> Bool {
+    return a == b
+}
+
+func questionFive() -> String {
+    return "b"
+}
+
+func compare(a:Double,b:Double) -> Bool{
+    if (a > b || a >= 100) {
+        return true
+    }
+    return false
+}
+
+func average(a:Int,b:Int,c:Int) -> Int {
+   return (a + b + c ) / 3
+}
